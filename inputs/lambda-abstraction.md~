@@ -1,0 +1,15 @@
+### Example: summation of natural numbers
+
+How do we define the function that takes a number $n$ and returns the sum $n+n$?
+
+Sometimes we write $f(n) = n+n$.
+
+Then $f(2) = 2+2 = 4$.
+
+But the expression $n+n$ by itself has no obvious meaning. 
+
+Is $n$ a fixed constant or a variable?
+
+In Lambda Calculus, $n+n$ is not a function. But $f$ is a function!
+
+Test: can you "apply" $n+n$ to anything?

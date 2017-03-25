@@ -1,50 +1,301 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <!-- <link rel="stylesheet" href="css/theme/black.css"> -->
+    <link rel="stylesheet" href="css/theme/night.css">
+    <!-- <link rel="stylesheet" href="css/theme/league.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/moon.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/serif.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/blood.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/sky.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/solarized.css" id="theme"> -->
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/fullscreen-img.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <style type="text/css">
+      html.img-right div.slide-background.present {
+      background-position: right;
+      }
+    </style>
+    
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <script type="text/javascript"
+	    src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <style type="text/css">
+      p { text-align: left; }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<!-- <section>	 -->
+	<!--   <img src="inputs/lambda.png" style="width: 400px;" data-state="blur"/> -->
+	<!-- </section> -->
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+	<!-- <section> -->
+	<!--   <p class="fragment grow">grow</p> -->
+	<!--   <p class="fragment shrink">shrink</p> -->
+	<!--   <p class="fragment fade-out">fade-out</p> -->
+	<!--   <p class="fragment fade-up">fade-up (also down, left and right!)</p> -->
+	<!--   <p class="fragment current-visible">visible only once</p> -->
+	<!--   <p class="fragment highlight-current-blue">blue only once</p> -->
+	<!--   <p class="fragment highlight-red">highlight-red</p> -->
+	<!--   <p class="fragment highlight-green">highlight-green</p> -->
+	<!--   <p class="fragment highlight-blue">highlight-blue</p> -->
+	<!-- </section> -->
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+	<!-- <\!-- ---------- Slide 4 ------------ -\-> -->
+	<!-- <section data-markdown> -->
+	<!--   <script type="text/template"> -->
+	<!--     <div style="text-align:center"> -->
+	<!--       <div style="dim"> -->
+	<!-- 	<img src="inputs/Church-Turing-Thesis.png" alt="church-turing thesis"/> -->
+	<!--       </div> -->
+	<!--     </div> -->
+	<!--   </script> -->
+	<!-- </section> -->
+
+	<!-- ---------- Slide 4 ------------ -->
+	<!-- <section data-markdown> -->
+	<!--   <script type="text/template"> -->
+	<!--     - Item 1 <\!-- .element: class="fragment" data-fragment-index="2" -\-> -->
+	<!--     - Item 2 <\!-- .element: class="fragment" data-fragment-index="1" -\-> -->
+	<!--   </script> -->
+	<!-- </section>	     -->
+
+
+	<!-- ---------- Slide 6 ------------ -->
+	<!-- <section data-markdown> -->
+	<!--   <script type="text/template"> -->
+	<!--     Slide 6 -->
+	<!--   </script> -->
+	<!-- </section> -->
+
+
+	<!-- ========== Slide 1 (title) =========== -->
+	<section
+	   data-markdown="inputs/title.md" data-charset="iso-8859-15" />
+        </section>
+
+	<!-- ---------- Slide 2 ------------ -->
+	<!-- <section data-background="inputs/Alonzo_Church.jpg" -->
+	<!-- <section data-background="inputs/7a.jpg" -->
+	<!-- <section data-background="inputs/Alonzo-Church.jpg" -->
+	<section data-background="inputs/p51.jpg"
+		 data-background-size="cover"
+		 data-state="dim"
+		 data-markdown="inputs/church.md"
+		 data-charset="iso-8859-15">
+	</section>	
+
+
+	<!-- ---------- Slide 3 ------------ -->
+	<section data-markdown="inputs/turing.md"
+		 data-state="dim2"
+		 data-charset="iso-8859-15">
+	</section>	
+
+	<!-- ---------- Slide 4 ------------ -->
+	<section data-markdown
+	 	 data-background-image="inputs/Church-Turing-Thesis.png"
+		 data-background-size="contain" data-state="dim2">
+	</section>  
+	    
+	<!-- ---------- Slide 5 ------------ -->
+	<section data-markdown="inputs/algorithms-languages.md"></section>
+
+
+        <!-- ---------- Slide 6 ------------ -->
+	<section data-markdown="inputs/efficiency-structure.md"></section>
+
+	<!-- ---------- Slide 7 ------------ -->
+	<section data-markdown="inputs/efficiency.md"></section>
+
+	<!-- ---------- Slide 8 ------------ -->
+	<section data-markdown="inputs/structure.md"></section>
+
+	<!-- ---------- Slide 9 ------------ -->
+	<section data-markdown="inputs/lambda.md"></section>
+
+	<!-- ---------- Slide 9 ------------ -->
+	<section data-markdown="inputs/examples.md"></section>
+
+	<!-- ---------- Slide 9 ------------ -->
+	<section data-markdown="inputs/lambda-abstraction.md"></section>
+
+	<!-- ---------- Slide 10 ------------ -->
+	<section data-markdown="inputs/parallel1.md"></section>
+
+	<!-- ---------- Slide 11 ------------ -->
+	<section data-markdown="inputs/parallel2.md"></section>
+
+	<!-- ---------- Slide 12 ------------ -->
+	<!-- <section data-markdown="inputs/conclusion.md"></section> -->
+
+	<!-- ---------- Slide 12 ------------ -->
+	<section data-markdown="inputs/mgs-part1.md"></section>
+
+
+      </div>
+    </div>
+
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <style type="text/css">
+      html.blur .backgrounds {
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(10px);
+      -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+      filter: blur(5px);
+      }
+    </style>
+
+    <style type="text/css">
+      html.dim .backgrounds {
+      -webkit-filter: blur(4px) saturate(.5) brightness(.8);
+      -moz-filter: blur(4px) saturate(.7) brightness(.9);
+      -o-filter: blur(4px) saturate(.7) brightness(.9);
+      -ms-filter: blur(4px) saturate(.7) brightness(.9);
+      filter: blur(0px) saturate(.7) brightness(.5);
+      }
+    </style>
+    <style type="text/css">
+      html.dim2 .backgrounds {
+      filter: blur(0px) brightness(.5);
+      }
+    </style>
+    
+
+    <style type="text/css">
+      .two-floating-elements {
+      > ul ~ p,
+      > p ~ ul {
+      max-width: 50%;
+      float:left;
+      font-size: 0.7em;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      }
+      > p ~ ul {
+      margin-left: 0;
+      }
+      }
+    </style>
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      math: { mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+      config: 'TeX-AMS_HTML-full'
+      },
+
+      // Display controls in the bottom right corner
+      controls: true,
+
+      // Display a presentation progress bar
+      progress: true,
+
+      // Display the page number of the current slide
+      slideNumber: false,
+
+      // Push each slide change to the browser history
+      history: false,
+
+      // Enable keyboard shortcuts for navigation
+      keyboard: true,
+
+      // Enable the slide overview mode
+      overview: true,
+
+      // Vertical centering of slides
+      center: false,
+
+      // Enables touch navigation on devices with touch input
+      touch: true,
+
+      // Loop the presentation
+      loop: false,
+
+      // Change the presentation direction to be RTL
+      rtl: false,
+
+      // Randomizes the order of slides each time the presentation loads
+      shuffle: false,
+
+      // Turns fragments on and off globally
+      fragments: true,
+
+      // Flags if the presentation is running in an embedded mode,
+      // i.e. contained within a limited portion of the screen
+      embedded: false,
+
+      // Flags if we should show a help overlay when the questionmark
+      // key is pressed
+      help: true,
+
+      // Flags if speaker notes should be visible to all viewers
+      showNotes: false,
+
+      // Number of milliseconds between automatically proceeding to the
+      // next slide, disabled when set to 0, this value can be overwritten
+      // by using a data-autoslide attribute on your slides
+      autoSlide: 0,
+
+      // Stop auto-sliding after user input
+      autoSlideStoppable: true,
+
+      // Use this method for navigation when auto-sliding
+      autoSlideMethod: Reveal.navigateNext,
+
+      // Enable slide navigation via mouse wheel
+      mouseWheel: false,
+
+      // Hides the address bar on mobile devices
+      hideAddressBar: true,
+
+      // Opens links in an iframe preview overlay
+      previewLinks: false,
+
+      // Transition style
+      transition: 'fade', // none/fade/slide/convex/concave/zoom
+      
+      // Transition speed
+      transitionSpeed: 'default', // default/fast/slow
+      
+      // Transition style for full page slide backgrounds
+      backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+      
+      // Number of slides away from the current that are visible
+      viewDistance: 3,
+      
+      dependencies: [
+      {src: 'plugin/math/math.js', async: true},
+      { src: 'plugin/markdown/marked.js' },
+      { src: 'plugin/markdown/markdown.js' },
+      { src: 'plugin/notes/notes.js', async: true },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+      ]
+      });
+    </script>
+  </body>
 </html>

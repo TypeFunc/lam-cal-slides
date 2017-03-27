@@ -2,7 +2,7 @@
 
 (1912-1954)
 
-<!-- .slide: data-background="inputs/alan-turing.jpg" data-background-size="contain" data-state="dim" -->
+<!-- .slide: data-background="inputs/img/alan-turing.jpg" data-background-size="contain" data-state="dim" -->
 
 <p class="fragment fade-left"> 
 (~1935) independently,  

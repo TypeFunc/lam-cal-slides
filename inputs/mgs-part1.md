@@ -1,3 +1,9 @@
+## Part II
+
+### $\lambda$-Calculus in greater depth
+
+---
+
 ### Introduction
 
 + <a class="highlight-blue">$\lambda$-calculus</a> 
@@ -84,7 +90,7 @@ $$3+(7 \times 2)$$
 <p class="fragment fade-left"> 
 - **Local definitions.** Another integer:
   $$\mathsf{let}\ y\ \mathsf{be}\ (2\times 18)+(3 \times 102)\ \mathsf{in}\ (y+17\times y)$$
-  (shorthand for $y+17 \times y$ with $y$ set to $(2\times 18)+(3 \times 102)$)
+  This is shorthand for $y+17 \times y$, with $y$ set to $(2\times 18)+(3 \times 102)$.
 </p>
 
 ---

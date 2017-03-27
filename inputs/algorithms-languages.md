@@ -1,17 +1,17 @@
 ### Algorithms vs. Languages
 
 + The <a class="highlight-green">*Church-Turing Thesis*</a> 
-  is among the most important ideas in computer science, 
-  but the impact of the models invented by Church and Turing goes 
+  is one of the most important ideas in computer science.
+  
++ The impact of the models of Church and Turing goes 
   well beyond the thesis itself.
   <!-- .element: class="fragment fade-left" -->
 
-+ But the impact and infuence of each model has been in 
-  separate communities.
++ The two models have impacted two distinct communities.
   <!-- .element: class="fragment fade-left" -->
 
-+ Turing Machine $\longleftrightarrow$ Algorithms and Complexity
++ Turing Machine $\rightsquigarrow$ Algorithms and Complexity
   <!-- .element: class="fragment fade-left" -->
 
-+ $\lambda$-Calculus $\longleftrightarrow$ Programming Languages
++ $\lambda$-Calculus $\rightsquigarrow$ Programming Languages
   <!-- .element: class="fragment fade-left" -->

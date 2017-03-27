@@ -1,4 +1,4 @@
-### $\lambda$-Calculus $\Leftrightarrow$ Languages
+### $\lambda$-Calculus $\leftrightsquigarrow$ Languages
 
 <div><a class="highlight-blue">*structure*</a></div>
 <!-- .element: class="fragment fade-up" -->

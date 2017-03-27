@@ -1,4 +1,4 @@
-### Turing Machine $\longleftrightarrow$ Algorithms
+### Turing Machine $\leftrightsquigarrow$ Algorithms
 
 <div><a class="highlight-blue">*efficiency*</a></div>
 <!-- .element: class="fragment fade-up" -->

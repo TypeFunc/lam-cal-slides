@@ -18,9 +18,9 @@ function on $\mathbb{N}$ can be
 computed by his machine.
 </p> 
 <p class="fragment fade-left"> 
-...also showed the two models are 
-equivalent--compelling evidence for the *universality* of 
-these computational models... 
+Also proved the two models
+equivalent--compelling evidence for the <!-- *universality* of  -->
+<!-- these computational models...  -->
 <a class="highlight-green">**Church-Turing Thesis**</a>
 </p> 
 

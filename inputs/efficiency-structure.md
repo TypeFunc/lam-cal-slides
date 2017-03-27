@@ -1,4 +1,4 @@
-### Efficiency vs. Structure
+### Efficiency V. Structure
 
 The impact and separation is not accidental.
 

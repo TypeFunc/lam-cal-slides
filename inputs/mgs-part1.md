@@ -1,6 +1,7 @@
 ## Part II
 
-### $\lambda$-Calculus in greater depth
+### Lambda Calculus:
+### in (slightly) more depth
 
 ---
 

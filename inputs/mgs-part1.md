@@ -1,11 +1,10 @@
 ## Part II
 
-### Lambda Calculus:
-### in (slightly) more depth
+### Lambda Calculus
 
 ---
 
-### Introduction
+#### Intro and Quick Review
 
 + <a class="highlight-blue">$\lambda$-calculus</a> 
   is a small language based on some common mathematical idioms.  
@@ -17,18 +16,18 @@
 
 ---
 
-### The Impact of $\lambda$-Calculus
+#### The Impact of $\lambda$-Calculus
 
 <!-- $\lambda$-calculus has had an impact throughout computer science and logic. -->
 <!-- For example,  -->
 <a class="highlight-blue">$\lambda$-calculus...</a>
 
-- <p class="fragment fade-left">is the basis of 
+- <p class="fragment fade-left">the basis of 
   <span class="fragment highlight-blue">functional programming</span> 
   languages  
   (e.g. Haskell, SML, OCaml, Lisp, Erlang, Scala, etc)</p>
 
-- <p class="fragment fade-left">is used to give 
+- <p class="fragment fade-left">used to give 
   <span class="fragment highlight-blue">semantics</span> 
   for programming languages; 
   (1965) Peter Landin describes semantics of Algol-60
@@ -36,11 +35,9 @@
   
 - <p class="fragment fade-left">
   closely corresponds to a special logic, called 
-  <span class="fragment highlight-blue">intuitionistic logic</span>
-  <span class="fragment fade-left">(via
-  <span class="fragment highlight-green">Curry-Howard isomorphism</span>--not 
-  covered here, but we borrow notation (e.g. $\vdash$) and terminology 
-  (*introduction/elimination rule*) from logic).</span>
+  <span class="fragment highlight-blue">intuitionistic logic</span>,
+  <span class="fragment fade-left">via the
+  <span class="fragment highlight-green">*Curry-Howard isomorphism*</span>.
   </p>
   <!-- The influence in the opposite direction has been even greater. -->
 

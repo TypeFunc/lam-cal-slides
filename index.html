@@ -52,6 +52,10 @@
 	<section data-markdown="inputs/mgs-part0.md"></section>
 
 	<!-- ========== PART 1 =========== -->
+	<section data-markdown="inputs/abs-com.md"></section>
+	<!-- .element: class="fragment fade-left" -->
+
+	<!-- ========== PART 2 =========== -->
 	<section data-markdown="inputs/mgs-part1.md"></section>
 
 
@@ -87,9 +91,15 @@
       }
     </style>
     <style type="text/css">
-      html.img-right div.slide-background.present {
+      html.img-right-dimmer div.slide-background.present {
       background-position: right;
       filter: brightness(.4);
+      }
+    </style>
+    <style type="text/css">
+      html.img-right-dim div.slide-background.present {
+      background-position: right;
+      filter: brightness(.6);
       }
     </style>
     
@@ -124,7 +134,7 @@
       progress: true,
 
       // Display the page number of the current slide
-      slideNumber: false,
+      slideNumber: true,
 
       // Push each slide change to the browser history
       history: false,

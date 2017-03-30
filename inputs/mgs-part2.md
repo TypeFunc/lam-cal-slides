@@ -139,19 +139,19 @@ $(\lambda x_{\mathbb Z} . (2 \times x + 1)) 7$
 Identify the following integers
 
 1. <p class="fragment fade-left">
-   $((\lambda f_{\mathbb Z \to \mathbb Z} .\, 
-   \lambda x_{\mathbb Z} .\, (f\,(f\,x)))\, \lambda x_{\mathbb Z} .\, (x+3))\,2$
+   $[(\lambda f:\mathbb Z \to \mathbb{Z}\ . \lambda x:\mathbb{Z}\ . (f (f x)))\ \lambda x : \mathbb{Z} . (x+3)]\, 2$
    </p>
 
 2. <p class="fragment fade-left">
-   $\mathsf{let}\ f \mathsf{be}\ \lambda x_{\mathbb Z + \mathbb B} . 
-   \mathsf{case}\ x\ \mathsf{of}\  \\{ \mathsf{inl}\ {y} .\ y+3, \mathsf{inr}\ {y}. 7 \\} .
-   (f \,\mathsf{inl}\ {5}) + (f \,\mathsf{inr}\ {\mathsf{false})$
+   $\mathsf{let}\ f\ \mathsf{be}\ \lambda x:(\mathbb{Z} + \mathbb{B})\ . 
+   \mathsf{case}\ x\ \mathsf{of}$  
+   $\; \\{ \mathsf{inl}\ y\ .\ y+3, \mathsf{inr}\ y\ . 7 \\} .
+   (f \, \mathsf{inl}\ 5) + (f \, \mathsf{inr}\ \mathsf{false})$
    </p>
 
 3. <p class="fragment fade-left">
-   $\mathsf{let}\ f \mathsf{be}\ \lambda x_{\mathbb Z \times \mathbb Z} . \, 
-   (\mathsf{case}\  x\ \mathsf{of}\ (y,z) .\ (2 \times y + z)) .  
-   f (\mathsf{let}\ u \mathsf{be}\ 4 . u+1, 8)$
+   $\mathsf{let}\ f\ \mathsf{be}\ \lambda x:(\mathbb Z \times \mathbb Z)\ .
+   \mathsf{case}\  x\ \mathsf{of}\ (y,z)\ . (2 \times y + z)\ .$  
+   $\; f (\mathsf{let}\ u\ \mathsf{be}\ 4 . u+1, 8)$
    </p>
 
